@@ -80,13 +80,11 @@ function writeToFile(fileName, data) {
 }
 
 // Function to initialize app
-function init() {
-    inquirer.prompt(promptUser)
-    .then(function (userInput) {
-        console.log(userInput)
-        writeToFile("README.md", generateMarkdown(userInput));
-    });
-};
-console.log('Hello Node!');
-// Function call to initialize app
-init();
+promptUser()
+.then(data => {console.log('Done!'); return data})
+    .then(data => {return generateMarkdown(data)})
+        .then(writeReadme => {
+            return writeToFile(writeReadme);
+        })
+        .catch(error => {console.log(error + "An error has popped up!")
+    })
