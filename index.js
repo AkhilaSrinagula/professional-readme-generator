@@ -46,11 +46,6 @@ const questions = [
     },
   },
   {
-    message: "Enter the GitHub URL for the project?",
-    type: "input",
-    name: "repoURL",
-  },
-  {
     message: "What is your email address? (Required)",
     type: "input",
     name: "email",
@@ -101,7 +96,7 @@ const questions = [
     }
   },
   {
-    message: "Enter any test instruction for the project? (Required",
+    message: "Enter any test instruction for the project? (Required)",
     type: "input",
     name: "testing",
     validate: (testingInput) => {

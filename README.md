@@ -15,18 +15,18 @@
 
 
   ## Description:
-  This project helps the user to generate a readme file
+  A simple command line js application that will generate a formatted README.md file based on the USER input
 
   ## Installation:
-  node init -y
+  type npm install -y on the command line
   ## Usage:
-  node index.js
+  Type node index.js to run the app
   ## License:
   MIT
   ## Contribution:
-  n/a
+  N/A
   ## Testing:
-  n/a
+  There are no tests as of now
 
   ## Additional Info:
   - Github: [akhilasrinagula](https://github.com/akhilasrinagula)
