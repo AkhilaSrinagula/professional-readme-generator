@@ -23,6 +23,10 @@ WHEN the user click on the links in the Table of Contents
 THEN the user is taken to the corresponding section of the README.
 
 
+## Demo
+
+https://watch.screencastify.com/v/mtr6L4lHALN7xaAc781W
+
 ## Installation
 
 Install the inquirer by typing npm install -y
