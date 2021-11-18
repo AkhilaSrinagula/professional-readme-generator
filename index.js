@@ -40,7 +40,7 @@ const questions = [
       if (gitHubInput) {
         return true;
       } else {
-        console.log("Please enter your name!");
+        console.log("Please enter your GitHub Username!");
         return false;
       }
     },
@@ -127,11 +127,7 @@ const questions = [
     }
   },
 },
-  {
-    message: "What is the copyright year?",
-    type: "input",
-    name: "year",
-  },
+  
   {
     message: "What needs to be known about contributing to the Project? (Required)",
     type: "input",

@@ -1,8 +1,11 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ## License
-  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+  ## Licensing
+  [![license](https://img.shields.io/badge/license-${data.licensing}-blueviolet)](https://shields.io)
+
+
+ 
 
   ## Table of Contents 
   - [Description](#description)
@@ -32,5 +35,6 @@ function generateMarkdown(data) {
   - Email: ${data.email}
 `;
 }
+
 
 module.exports = generateMarkdown;

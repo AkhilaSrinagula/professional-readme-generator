@@ -1,6 +1,9 @@
-# Akhila
-  ## License
-  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+# Professional README generator
+  ## Licensing
+  [![license](https://img.shields.io/badge/license-MIT-blueviolet)](https://shields.io)
+
+
+ 
 
   ## Table of Contents 
   - [Description](#description)
@@ -12,19 +15,19 @@
 
 
   ## Description:
-  This project help the user to generate a readme
+  This project helps the user to generate a readme file
 
   ## Installation:
-  First install node init -y
+  node init -y
   ## Usage:
-  after typing node index.js the command line provides few questions which needs to be answered
+  node index.js
   ## License:
-  undefined
+  MIT
   ## Contribution:
-  There is no contribution required as of now
+  n/a
   ## Testing:
-  enter index.js
+  n/a
 
   ## Additional Info:
   - Github: [akhilasrinagula](https://github.com/akhilasrinagula)
-  - Email: undefined
+  - Email: akhilasrinagula@gmail.com
